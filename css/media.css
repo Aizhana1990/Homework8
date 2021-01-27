@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    .hero_title {
+        font-size: 45px;
+    }
+
+    .story-item h3 {
+        font-size: 15px;
+    }
+
+    .about_info p {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero_title {
+        font-size: 40px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+
+    .second_story-title {
+        font-size: 15px;
+    }
+
+    .sub-title {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 10px;
+        min-width: 120px;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .story-item {
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero_title {
+        text-align: center;
+    }
+
+    .second_story-title {
+        padding: 7px;
+    }
+
+    .second_story-title {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .sub-title {
+        padding: 2px;
+    }
+
+    .btn {
+        min-width: 110px;
+    }
+
+    .story-item h3 {
+        font-size: 13px;
+    }
+
+    .sub-text {
+        font-size: 13px;
+    }
+
+    .list_footer {
+        font-size: 12px;
+    }
+    .header_menu {
+        display: none;
+    }
+    .flex-wraper {
+    justify-content: center;
+    }
+    }
+@media (max-width: 480px) {
+    .story-info {
+        font-size: 16px;
+    }
+    .about_info p {
+        font-size: 19px;
+    }
+    .about-col {
+        padding: 0 4px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .about_info {
+        margin-bottom: 10px;
+    }
+    .story-item {
+        height: unset;
+        margin-bottom: 10px;
+    }
+    .services-box{
+        flex-direction: column;
+    }
+    .second_story-title{
+        margin-bottom: 11px;
+        font-size: 17px;
+    }
+    .sub-title{
+        margin-bottom: 10px;
+    }
+    .newsletter_caption{
+        margin-bottom: 5px;
+    }
+    .newsletter_form_input{
+        width: 155px;
+    }
+    .newsletter_form{
+        margin-left: 0;
+    }
+    .btn{
+        min-width: 75px;
+    }
+    .list_footer{
+        margin-bottom: 14px;
+    }
+}
