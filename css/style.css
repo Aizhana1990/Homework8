@@ -403,3 +403,42 @@ ul {
 .icons a:hover{
     color: #00A4E5;
 }
+.menu_btn{
+    height: 40px;
+    width: 45px;
+    display: none;
+    align-items: center;
+    z-index: 2;
+}
+.menu_btn span{
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    transition: .2s;
+}
+.menu_btn span:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    top: -10px;
+    transition: .6s;
+
+}
+.menu_btn span:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    top: 10px;
+    transition: .6s;
+}
+
+
+.get_in_touch{
+    background-position-y: 2px;
+}
