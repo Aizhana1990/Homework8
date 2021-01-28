@@ -17,6 +17,9 @@ body {
 ul {
     list-style: none;
 }
+.d-flex{
+    display: flex;
+}
 
 .hero {
     background: url("../Image/bg.png") no-repeat center/cover;
