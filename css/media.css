@@ -24,6 +24,9 @@
     .second_story-title {
         font-size: 15px;
     }
+    .second-story .services-box {
+        padding-bottom: 40px;
+    }
 
     .sub-title {
         font-size: 10px;
@@ -37,6 +40,13 @@
     .story-item {
         height: 100%;
     }
+    .story-info{
+        padding-bottom: 10px;
+    }
+    .story {
+        padding: 57px 0 40px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -72,6 +82,9 @@
     .about_info {
         margin-bottom: 10px;
     }
+    .story {
+        padding: 57px 0 40px;
+    }
     .story-item {
         height: unset;
         margin-bottom: 10px;
@@ -86,6 +99,9 @@
 
     .sub-text {
         font-size: 13px;
+    }
+    .second-story .services-box {
+        padding-bottom: 40px;
     }
 
     .list_footer {

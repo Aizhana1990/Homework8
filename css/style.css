@@ -108,7 +108,7 @@ ul {
     background: #00A4E5;
     height: 2px;
     width: 50px;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     right: 0;
     top: 0;
@@ -238,7 +238,9 @@ ul {
 .sub-title {
     font-size: 11px;
     font-weight: 400;
-    color: #48555b;
+    color: #48555B;
+    line-height: 19px;
+
 }
 
 .btn {
@@ -253,7 +255,7 @@ ul {
     transition: .6s;
 }
 .btn:hover{
-    background-color: mediumblue;
+    background-color: #23d6ff;
 }
 
 .story-item {
@@ -267,6 +269,9 @@ ul {
 
 .sub-text {
     padding-bottom: 13px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #48555B;
 }
 
 .story-item h3 {
@@ -365,6 +370,9 @@ ul {
 .top-links:not(:last-child) {
     margin-bottom: 5px
 }
+.top-links:hover{
+    color: #00A4E5;
+}
 .title_link{
     margin-right: 34px;
     font-size: 11px;
@@ -384,6 +392,9 @@ ul {
     margin-bottom: 15px;
     font-size: 11px;
     line-height: 15px;
+}
+.footer_contact:hover{
+    color: #00A4E5;
 }
 .contact{
     font-size: 11px;
