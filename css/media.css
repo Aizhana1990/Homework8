@@ -114,6 +114,10 @@
         left: 0;
         color: #FFFFFF;
     }
+
+    .header_menu_item {
+        padding: 10px 0;
+    }
     .menu_btn.active span:before {
         transform: rotate(45deg);
         top: 0;
@@ -192,4 +196,5 @@
     .list_footer {
         margin-bottom: 14px;
     }
+
 }

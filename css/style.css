@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -74,6 +78,7 @@ ul {
 .flex-wraper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header_menu_item {
@@ -237,14 +242,18 @@ ul {
 }
 
 .btn {
+    min-height: 40px;
     min-width: 150px;
-    padding: 11px 0;
     font-size: 13px;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
     background: #00A4E5;
     border: none;
+    transition: .6s;
+}
+.btn:hover{
+    background-color: mediumblue;
 }
 
 .story-item {
@@ -273,6 +282,7 @@ ul {
     text-align: center;
     letter-spacing: 0.15px;
     padding-top: 120px;
+    min-height: 40px;
 }
 
 .get_in_subject {
